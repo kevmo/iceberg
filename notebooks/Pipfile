@@ -11,6 +11,8 @@ xgboost = "*"
 torch = "*"
 scipy = "*"
 matplotlib = "*"
+jupyter = "*"
+seaborn = "*"
 
 [dev-packages]
 
