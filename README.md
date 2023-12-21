@@ -22,7 +22,6 @@ The primary tasks involved in the project are:
    cd prediction_service
    python app.py
    ```
-
    This will start the Flask app, and you can make predictions by sending POST requests to the `/predict` endpoint.
 4. **Scripts Directory:** The `scripts` directory contains Python scripts for specific tasks, such as preprocessing data and batch prediction. To run the batch prediction script:
 
@@ -30,7 +29,4 @@ The primary tasks involved in the project are:
    cd scripts
    python batch_predict.py ../data/processed/test.csv
    ```
-
    This will create a CSV file (`predictions.csv`) with predictions for each passenger in the test dataset.
-
-Feel free to explore the notebooks and scripts to understand the project workflow and customize it for your needs. For detailed information on each step, refer to the specific notebooks and scripts in their respective directories.
