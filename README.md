@@ -20,10 +20,11 @@ The primary tasks involved in the project are:
 
    ```bash
    cd prediction_service
-   python app.py
+   python predict.py
    ```
    This will start the Flask app, and you can make predictions by sending POST requests to the `/predict` endpoint.
-4. **Scripts Directory:** The `scripts` directory contains Python scripts for specific tasks, such as preprocessing data and batch prediction. To run the batch prediction script:
+4. 
+5. **Scripts Directory:** The `scripts` directory contains Python scripts for specific tasks, such as preprocessing data and batch prediction. To run the batch prediction script:
 
    ```bash
    cd scripts
